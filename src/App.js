@@ -1,6 +1,3 @@
-
-
-import  "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/NavbarComponent/Navbar";
 
 

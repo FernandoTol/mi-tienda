@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import  "bootstrap/dist/css/bootstrap.min.css";
 
 
 export const Navbar = () => {
@@ -9,16 +8,16 @@ export const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Babidas</a>
+                                <a className="nav-link" href="/">Babidas</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Desayunos</a>
+                                <a className="nav-link" href="/">Desayunos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Comidas</a>
+                                <a className="nav-link" href="/">Comidas</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Cenas</a>
+                                <a className="nav-link" href="/">Cenas</a>
                             </li>
                         </ul>
                     </div>
