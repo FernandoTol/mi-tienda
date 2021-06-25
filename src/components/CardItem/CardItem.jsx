@@ -1,18 +1,19 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { ItemCount } from "../itemCount/itemCount";
+import { ItemCount } from "./ItemCount/itemCount";
 
 
 
-export const CardComponent = (props) => {
+
+export const CardComponent = (props, products) => {
     return (
         <div className='card'>
             <div class="card" >
-                <img src='...' class="card-img-top" alt="..." />
+                <img src={products.pictureURL} class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="/" className="btn btn-primary">Go somewhere</a>
-                    <ItemCount stock='10' initial='1' />
+                    <h5 class="card-title">{products.title}</h5>
+                    <p class="card-text">{products.description}</p>
+                    <a href="/" className="btn btn-primary">{products.price}</a>
+                    <ItemCount stock={products.stock} initial='1' id={products.id}/>
                 </div>
             </div>
         </div>

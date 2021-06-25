@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "titel": "cafe",
+        "description": "lorem ipsum dolor sit amet",
+        "price": "43",
+        "stock": "34",
+        "pitureURL":"https://picsum.photos/536/354"
+
+    },
+    {
+        "id": 2,
+        "titel": "te",
+        "description": "lorem ipsum dolor sit amet",
+        "price": "32",
+        "stock": "24",
+        "pitureURL":"https://picsum.photos/536/354"
+
+    },
+    {
+        "id": 3,
+        "titel": "refresco",
+        "description": "lorem ipsum dolor sit amet",
+        "price": "45",
+        "stock": "14",
+        "pitureURL":"https://picsum.photos/536/354"
+
+    }
+]
